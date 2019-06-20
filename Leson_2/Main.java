@@ -47,8 +47,6 @@ public class Main {
             System.out.println("Сумма элементов массива равна "+String.valueOf(result));
             System.out.println("-------------------");
         }
-
-
     }
 
     public static int analyze(String[][] array) throws MyArraySizeException, MyArrayDataException {
@@ -75,7 +73,6 @@ public class Main {
                 }
             }
         }
-
         return summ;
     }
 }

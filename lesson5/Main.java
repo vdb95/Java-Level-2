@@ -3,13 +3,11 @@ package lesson5;
 import java.util.Arrays;
 
 
-
 public class Main {
 
     private static final int size = 10000000;
 
     private static final int h = size / 2;
-
 
 
     public static void main(String[] args){
@@ -21,7 +19,6 @@ public class Main {
         main.methodTwo();
 
     }
-
 
 
     private void methodOne(){
@@ -45,7 +42,6 @@ public class Main {
         System.out.println(String.format("Завершение метода 1. Время работы:" + String.valueOf(end - start)));
 
     }
-
 
 
     private void methodTwo(){
@@ -97,9 +93,6 @@ public class Main {
         }
 
 
-
-
-
         long connect = System.currentTimeMillis();
 
         System.arraycopy(arr1, 0, arr, 0, h);
@@ -115,7 +108,6 @@ public class Main {
     }
 
 
-
     private void methodTwoInternal(float[] arr, int number){
 
         long start = System.currentTimeMillis();
@@ -129,7 +121,5 @@ public class Main {
         long end = System.currentTimeMillis();
 
         System.out.println(String.format("Время работы потока %d равно %s", number, String.valueOf(end - start)));
-
     }
-
 }

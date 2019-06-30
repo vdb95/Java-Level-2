@@ -123,3 +123,4 @@ public class Main {
         System.out.println(String.format("Время работы потока %d равно %s", number, String.valueOf(end - start)));
     }
 }
+

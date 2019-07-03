@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.net.Socket;
 
 public class ChatClient {
-
     private final String SERVER_ADDR = "localhost";
     private final int SERVER_PORT = 8180;
 
